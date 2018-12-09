@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">校声</string>
+    <string name="geren">个人</string>
+    <string name="guanfang">官方</string>
+    <string name="neirong1">×××</string>
+    <string name="schoolname">××大学</string>
+    <string name="guanzhu">关注</string>
+    <string name="remenq1">热门</string>
+
+
+    <string name="n1">校生昵称</string>
+    <string name="n2">学生姓名</string>
+    <string name="n3">学校</string>
+    <string name="n4">专业班级</string>
+    <string name="n5">学号</string>
+    <string name="n6">修改密码</string>
+    <string name="n7">手机绑定</string>
+    <string name="n8">登录记录</string>
+    <string name="n9">xxx</string>
+    <string name="n10">xxx</string>
+    <string name="n11">xx大学</string>
+    <string name="n12">xx专业x班</string>
+    <string name="n13">0123456789</string>
+    <string name="n14">></string>
+    <string name="n15">></string>
+    <string name="n16">></string>
+    <string name="n17">退出登录</string>
+
+    <string name="neirong2">XXXXXXXXXXX</string>
+    <string name="n">XXX</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="wdgz">我的关注</string>
+    <string name="wdsc">我的收藏</string>
+    <string name="wdtz">我的通知</string>
+
+    <string name="ftjm_neirong1">请编辑文字...|</string>
+    <string name="ftjm_neirong2">发布</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

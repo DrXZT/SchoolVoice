@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/zwpl_bg">
+
+
+    <TextView
+        android:id="@+id/zhyaq_textView1"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/zhyaq_kuang"
+        android:padding="15dp"
+        android:text="@string/n1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/zhyaq_textView2"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/zhyaq_textView1"
+        android:layout_alignStart="@+id/zhyaq_textView1"
+        android:layout_below="@+id/zhyaq_textView1"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/zhyaq_kuang"
+        android:text="@string/n2"
+        android:textSize="24sp"
+        android:padding="15dp"
+        />
+    <TextView
+        android:id="@+id/zhyaq_textView3"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/zhyaq_textView2"
+        android:layout_alignStart="@+id/zhyaq_textView2"
+        android:layout_below="@+id/zhyaq_textView2"
+        android:layout_marginTop="-15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/zhyaq_kuang"
+        android:text="@string/n3"
+        android:textSize="24sp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/zhyaq_textView4"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/zhyaq_textView3"
+        android:layout_alignStart="@+id/zhyaq_textView3"
+        android:layout_below="@+id/zhyaq_textView3"
+        android:layout_marginTop="-15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/zhyaq_kuang"
+        android:text="@string/n4"
+        android:textSize="24sp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/zhyaq_textView5"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/zhyaq_textView4"
+        android:layout_alignStart="@+id/zhyaq_textView4"
+        android:layout_below="@+id/zhyaq_textView4"
+        android:layout_marginTop="-15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/zhyaq_kuang"
+        android:text="@string/n5"
+        android:textSize="24sp"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/zhyaq_changpw"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/zhyaq_textView5"
+        android:layout_alignStart="@+id/zhyaq_textView5"
+        android:layout_below="@+id/zhyaq_textView5"
+        android:layout_marginTop="-2dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/zhyaq_kuang"
+        android:text="@string/n6"
+        android:textSize="24sp"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/zhyaq_textView7"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/zhyaq_changpw"
+        android:layout_alignStart="@+id/zhyaq_changpw"
+        android:layout_below="@+id/zhyaq_changpw"
+        android:layout_marginTop="-15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/zhyaq_kuang"
+        android:text="@string/n7"
+        android:textSize="24sp"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/zhyaq_landrecord"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/zhyaq_textView7"
+        android:layout_alignStart="@+id/zhyaq_textView7"
+        android:layout_below="@+id/zhyaq_textView7"
+        android:layout_marginTop="-15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/zhyaq_kuang"
+        android:text="@string/n8"
+        android:textSize="24sp"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/zhyaq_nickname"
+        android:layout_width="208dp"
+        android:layout_height="63dp"
+        android:layout_alignStart="@+id/zhyaq_textView11"
+        android:layout_alignTop="@+id/zhyaq_textView1"
+        android:gravity="end"
+        android:hint="@string/n9"
+        android:padding="15dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/zhyaq_textView11"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_alignEnd="@+id/zhyaq_textView1"
+        android:layout_alignRight="@+id/zhyaq_textView1"
+        android:layout_alignTop="@+id/zhyaq_landrecord"
+        android:hint="@string/n16"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:gravity="end"/>
+
+
+    <TextView
+        android:id="@+id/zhyaq_realname"
+        android:layout_width="205dp"
+        android:layout_height="63dp"
+        android:layout_alignEnd="@+id/zhyaq_textView1"
+        android:layout_alignRight="@+id/zhyaq_textView1"
+        android:layout_alignTop="@+id/zhyaq_textView2"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="end"
+        android:hint="@string/n9"
+        android:padding="15dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/zhyaq_collage"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_alignEnd="@+id/zhyaq_textView1"
+        android:layout_alignRight="@+id/zhyaq_textView1"
+        android:layout_alignTop="@+id/zhyaq_textView3"
+        android:gravity="end"
+        android:hint="@string/n11"
+        android:padding="15dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/zhyaq_banji"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_alignEnd="@+id/zhyaq_textView1"
+        android:layout_alignTop="@+id/zhyaq_textView4"
+        android:gravity="end"
+        android:hint="@string/n12"
+        android:padding="15dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/zhyaq_scid"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_alignEnd="@+id/zhyaq_textView1"
+        android:layout_alignRight="@+id/zhyaq_textView1"
+        android:layout_alignTop="@+id/zhyaq_textView5"
+        android:gravity="end"
+        android:hint="@string/n13"
+        android:padding="15dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/zhyaq_textView16"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_alignEnd="@+id/zhyaq_textView1"
+        android:layout_alignRight="@+id/zhyaq_textView1"
+        android:layout_below="@+id/zhyaq_textView5"
+        android:hint="@string/n14"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:gravity="end" />
+
+    <TextView
+        android:id="@+id/zhyaq_textView17"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_above="@+id/zhyaq_landrecord"
+        android:layout_alignEnd="@+id/zhyaq_textView1"
+        android:layout_alignRight="@+id/zhyaq_textView1"
+        android:hint="@string/n16"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:gravity="end" />
+
+
+    <Button
+        android:id="@+id/zhyaq_fanhui"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/zhyaq_fanhui" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="账号与安全"
+        android:textColor="#ffff00"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:background="#00000000"/>
+
+</RelativeLayout>

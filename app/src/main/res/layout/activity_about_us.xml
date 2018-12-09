@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/relativeLayout"
+    android:background="@drawable/zwpl_bg">
+
+    <Button
+        android:id="@+id/Button_fanhui"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/zwpl_fanhui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="330dp"
+        android:layout_height="193dp"
+
+        android:layout_marginBottom="-2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:paddingTop="0dp"
+        android:text="       校声以整合发布信息、学生交流为主，目的是为了提高学生工作效率，保证信息传递过程中的完整性和及时性。校声的一大特色就是可以将与你有关信息进行整理发送以及可以加入便签，这样就大大减少学生浏览信息所花费的时间并且提醒学生及时关注。同时对于发布的通知存在的疑惑，可以及时提出并得到反馈，保证信息传达的准确性。
+"
+        android:textSize="18sp"
+        android:textColor="#5B5B5B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="153dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="-2dp"
+        android:background="@null"
+        android:paddingTop="0dp"
+        android:text="       校声全部由17届学生自主设计研发，旨在提高同学们的信息传递效率以及丰富校园生活。同时您有任何问题都可以在反馈内容中留言，我们会及时替您解决。我们也欢迎大家的批评指正，您有任何的想法和建议，希望能不吝赐教。
+"
+        android:textSize="18sp"
+        android:textColor="#5B5B5B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <Button android:background="#00000000"
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintVertical_bias="0.037"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="21sp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#ffff00"
+        android:textStyle="bold"
+        android:text="关于我们"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="147dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:srcCompat="@drawable/default_logo" />
+
+</android.support.constraint.ConstraintLayout>

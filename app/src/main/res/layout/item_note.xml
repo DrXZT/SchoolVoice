@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:clickable="true"
+    android:elevation="12dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="#00000000"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/note_post"
+        android:layout_width="wrap_content"
+        android:layout_height="147dp"
+        android:layout_margin="16dp">
+
+
+        <TextView
+            android:id="@+id/allbg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bq_thewritebg" />
+
+
+        <TextView
+            android:id="@+id/mainnr"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="38dp"
+            android:hint="请输入......"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/mwcbutton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+
+            android:layout_below="@+id/mainnr"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorAccent"
+            android:text="Complete"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/allbg"
+            android:layout_alignStart="@+id/outriqi"
+            android:text="Did you complete this task?" />
+
+        <TextView
+            android:id="@+id/deadriqi"
+            android:layout_width="96dp"
+            android:layout_height="49dp"
+            android:layout_alignBottom="@+id/mainnr"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:background="#00000000"
+            android:text="9月15日17:00"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/outriqi"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/mwcbutton"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:background="#00000000"
+            android:text="MM月dd日 hh点 mm分"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grzx_bg"
+    tools:context=".MainActivity">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/grzx_touxiang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/default_logo"
+        app:riv_oval="true" />
+
+    <Button
+        android:id="@+id/grzx_guanzhu"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/grzx_touxiang"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/guanzhu"/>
+
+    <Button
+        android:id="@+id/grzx_fensi"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/grzx_touxiang"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/grzx_fensi"/>
+
+    <Button
+        android:id="@+id/grzx_wode"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        android:background="@drawable/grzx_wode" />
+
+    <Button
+        android:id="@+id/grzx_fanhui"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/grzx_fanhui" />
+
+    <Button
+        android:id="@+id/grzx_fankui"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="223dp"
+        android:background="@drawable/grzx_fankui" />
+
+    <Button
+        android:id="@+id/grzx_ysaq"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/grzx_ysaq" />
+
+    <TextView
+        android:id="@+id/grzx_xgtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:text="点击修改头像" />
+
+    <Button
+        android:id="@+id/grzx_gywm"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="247dp"
+        android:background="@drawable/grzx_gywm" />
+
+</RelativeLayout>

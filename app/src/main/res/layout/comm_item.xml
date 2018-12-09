@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+    <RelativeLayout
+        android:id="@+id/rl_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/comm_tx3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:src="@drawable/default_logo"
+            app:riv_oval="true"/>
+
+        <TextView
+            android:id="@+id/tx_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/per_tupian"
+            android:layout_alignTop="@+id/per_tupian"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/comm_textView1"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingEnd="70dp"
+            android:paddingStart="70dp"
+            android:paddingTop="40dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/comm_textView4"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/comm_tx3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="98dp"
+            android:text="@string/neirong1"
+            android:textColor="#5b5b5b"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/comm_liuyan2"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_alignBottom="@+id/comm_textView1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="49dp"
+            android:layout_marginRight="49dp"
+            android:background="@drawable/liuyan" />
+
+        <TextView
+            android:id="@+id/comm_txt"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/comm_tx3"
+            android:layout_marginStart="61dp"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/comm_time"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/comm_tx3"
+            android:layout_below="@+id/comm_txt"
+            android:text="TextView" />
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/grzx2_bg">
+
+    <Button
+        android:id="@+id/fanhui"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/grzx2_fanhui" />
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/grzx2_mytouxiang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/default_logo"
+        app:riv_oval="true"/>
+
+    <Button
+        android:id="@+id/grzx2_guanzhu"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/grzx2_mytouxiang"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:background="@drawable/grzx2_guanzhu"/>
+
+    <Button
+        android:id="@+id/grzx2_fensi"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/grzx2_mytouxiang"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:background="@drawable/grzx2_fensi" />
+
+    <TextView
+        android:id="@+id/show_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/per_refresh"
+        android:gravity="center"
+        android:text="下拉查看Ta曾发布过的帖子" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/per_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="378dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="189dp">
+
+        <ListView
+            android:id="@+id/info_list"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp">
+
+        </ListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>

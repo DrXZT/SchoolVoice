@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/zwpl_bg">
+
+
+    <Button
+        android:id="@+id/fanhui"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/fanhui" />
+
+    <Button
+        android:id="@+id/biaoti"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@+id/fanhui"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:text="添加任务"
+        android:textColor="#ffff00"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="103dp"
+        android:text="今天你想完成什么？"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/wcbutton"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/bq_buttonbg"
+        android:text="添加任务"
+        android:textColor="@android:color/background_dark"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/neirong_pbq"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bqt_thewritebg" />
+
+    <EditText
+        android:id="@+id/shuruchu"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/neirong_pbq"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/selectime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/currentime"
+            android:background="@drawable/bqt_chosetime"
+            android:gravity="center"
+            android:text="选择时间"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/currentime"
+            android:layout_width="176dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bqt_thewritebg"
+            android:gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Switch
+        android:id="@+id/txw"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="220dp"
+        android:checked="true"
+        android:text="提醒我："
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track" />
+
+</RelativeLayout>

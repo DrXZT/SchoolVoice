@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    android:clickable="true"
+    android:id="@+id/card_view"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="3dp"
+    android:elevation="12dp"
+    android:layout_margin="1dp"
+    app:cardBackgroundColor="#00000000">
+
+    <RelativeLayout
+        android:id="@+id/rl_post"
+        android:layout_width="match_parent"
+        android:layout_height="279dp"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/com_write1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/dlhjm_thewritebg"
+            android:paddingLeft="50dp"
+            android:paddingRight="70dp"
+            android:paddingTop="70dp"
+            android:textColor="#5B5B5B"
+            android:textSize="25sp" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/com_write1"
+            android:layout_marginStart="0dp">
+
+            <TextView
+                android:id="@+id/per_mingzi"
+                android:layout_width="70dp"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/com_touxiang"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="188dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/neirong1"
+                android:textColor="#5b5b5b"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.473" />
+
+            <ImageView
+                android:id="@+id/com_touxiang"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/dlhjm_jiahao1"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/dlhjm_headportrait"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/com_mingzi"
+                app:layout_constraintHorizontal_bias="0.4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/per_tupian"
+            android:layout_width="181dp"
+            android:layout_height="114dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="44dp"
+            android:layout_marginStart="27dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dlhjm_picture"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/per_write"
+            android:layout_width="318dp"
+            android:layout_height="148dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="13dp"
+            android:text="xxxxxxxxxxxxxxxxxxx"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/dlhjm_aixin1"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/aixin1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/dlhjm_liuyan1"
+                app:layout_constraintHorizontal_bias="0.901"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/dlhjm_liuyan1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/liuyan"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.473" />
+
+            <TextView
+                android:id="@+id/per_time"
+                android:layout_width="81dp"
+                android:layout_height="27dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="2017/06/01"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/dlhjm_aixin1"
+                app:layout_constraintHorizontal_bias="0.151"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.428" />
+
+            <TextView
+                android:id="@+id/per_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </android.support.constraint.ConstraintLayout>
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView >
